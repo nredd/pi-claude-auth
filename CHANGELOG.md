@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.3-nredd.1
+
+- Remove Claude Code credential discovery, sync, CLI refresh and account selection.
+- Delegate login, logout and refresh to Pi's native Anthropic provider.
+- Preserve request formatting for direct and virtual-routed Anthropic OAuth requests.
+- Keep the npm release's package name/version; fork from its recorded source commit
+  `30d7a44`, whose source manifest still declared `@pankajudhas81/pi-claude-auth@0.1.0`.
+
 # [0.1.0](https://github.com/pankajudhas81/pi-claude-auth/compare/v0.0.1...v0.1.0) (2026-05-30)
 
 ## 0.0.1
