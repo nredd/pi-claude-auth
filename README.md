@@ -1,3 +1,5 @@
+> Archived 2026-10-20. Replaced by the maintained [`@gotgenes/pi-anthropic-auth`](https://www.npmjs.com/package/@gotgenes/pi-anthropic-auth), which keeps Pi's native `claude-cli/<v>` user agent and adds the billing block and section-shaped system prompt; the swap is verified in [nredd/pi-harness](https://github.com/nredd/pi-harness) (#63, retirement #71).
+
 # pi-claude-auth
 
 Shapes Anthropic requests from the [pi coding agent](https://pi.dev) in the
